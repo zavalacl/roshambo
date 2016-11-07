@@ -1,21 +1,14 @@
 
-public class RockPlayer extends Player {
+public class RockPlayer extends Player{
 
 	@Override
 	public String getName() {
-		return "The Jets";
+        return "The Rock";		
 	}
-	
-	
-	@Override
+@Override
 	public Roshambo generateRoshambo() {
-		Roshambo[] roshambo = Roshambo.values();
-		System.out.println(roshambo[0]);
-		return roshambo[0];
+		return Roshambo.ROCK;
 		
 	}
-
-
-	
 
 }
